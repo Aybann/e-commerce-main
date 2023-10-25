@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth
+}
+
+.primary-button {
+  @apply  px-8 py-3 text-sm font-medium text-white bg-green-800 rounded hover:shadow focus:outline-none focus:ring hover:bg-green-700 transition-colors;
+}
+.secondary-button {
+  @apply px-8 py-3 text-sm font-medium border border-gray-700  bg-transparent rounded hover:shadow focus:outline-none focus:ring;
+}
+.cart-button {
+  @apply inline-block px-12 py-3  text-sm font-medium text-black border border-green-800 rounded hover:shadow focus:outline-none focus:ring w-full hover:bg-green-800 hover:text-white transition-colors;
+}
