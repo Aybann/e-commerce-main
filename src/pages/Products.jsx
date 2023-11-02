@@ -67,7 +67,7 @@ const Products = ({searchData, items, isPending, error}) => {
         }
       </header>
       <div className='flex flex-col md:flex-row justify-between'>
-        <div className='flex gap-4'>
+        <div className='flex flex-col md:flex-row gap-4'>
           <button 
             onClick={handleOpenFiltered}
             className="bg-gray-100 text-gray-900 text-sm rounded-3xl font-semibold w-fit p-2 px-7 md:mt-0 relative h-fit"
